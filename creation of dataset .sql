@@ -1,3 +1,7 @@
+--- created a synthetic banking dataset with 10,000 records using SQL Server, including intentional data quality issues.
+---This dataset will be used in upcoming sessions to create a Power BI report.
+---All queries used in this project will be provided in the resource section for replication or modification.
+
 create database Power_BI2
 
 use Power_BI2
@@ -110,6 +114,7 @@ SELECT
     END AS Currency
 FROM NumberedRows
 WHERE rn <= 10000;
+
 
 
 select * from Transactions
